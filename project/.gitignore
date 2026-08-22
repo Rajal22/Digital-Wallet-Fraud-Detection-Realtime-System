@@ -1,0 +1,15 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+*.log
+
+# Secure connect bundles are secrets - never commit
+*.zip
+
+# Large trained artifacts can optionally be excluded if you regenerate them
+# via ml/train_models.py rather than checking them in — uncomment if desired:
+# ml/*.pkl
+# ml/*.keras

@@ -1,0 +1,9 @@
+fastapi==0.141.1
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+scikit-learn==1.8.0
+tensorflow-cpu==2.21.0
+joblib==1.4.2
+numpy==2.4.4
+cassandra-driver==3.29.2
+astrapy==2.3.1
